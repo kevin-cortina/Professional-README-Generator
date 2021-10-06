@@ -1,8 +1,4 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
-
-const generateHTML = ({ name, location, github, linkedin }) =>
-  `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,56 +9,56 @@ const generateHTML = ({ name, location, github, linkedin }) =>
 <body>
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Hi! My name is ${name}</h1>
-    <p class="lead">I am from ${location}.</p>
-    <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
+    <h1 class="display-4">The ${name}</h1>
+    <p class="lead" id="description">${description}</p>
+    <h3> <span class="badge badge-secondary">Contact Me</span></h3>
     <ul class="list-group">
-      <li class="list-group-item">My GitHub username is ${github}</li>
-      <li class="list-group-item">LinkedIn: ${linkedin}</li>
+      <ul class="list-group-item" style="max-width: fit-content; display: inline-block;">Username: </ul>
+      <ul class="list-group-item" style="max-width: fit-content; display: inline-block;">LinkedIn: </ul>
     </ul>
+    <div> 
+    </div>
+    <div> 
+    </div>
+    <h3 id="tableOfContents" style="margin: 10px;"> Navigation</h3>
+    <div class="row">
+          <ul class="nav nav-tabs justify-content-end">
+            <li class="nav-item">
+            <a class="nav-link" href="#description" style="color:black"> Description </a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#installation" style="color:black">Installation Instructions</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#information" style="color:black">Usage Information</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#guidelines" style="color:black">Contribution Guidelines</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#instructions" style="color:black">Test Instructions</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#questions" style="color:black">Questions</a>
+          </li>
+          </ul>
+    </div>
   </div>
 </div>
+<div id="content" style="padding-left: 25px;">
+<img hidden id="image" src="${image}" alt="image-placeholder">
+<div> </div>
+<h3 id="installation">Installation Instructions:</h3>
+<p>${installation}</p>
+<h3 id="information">Usage Information:</h3>
+<p>${usage-info}</p>
+<h3 id="guidelines">Contribution Guidelines:</h3>
+<p>${guideline}</p>
+<h3 id="instructions">Test Instructions:</h3>
+<p>${test-instru}</p>
+<h3 id="questions">Questions</h3>
+<h6>Should you have any questions, concerns, comments, please reach out to me at my email address ${email}</h6>
+<p> </p>
+</div>
 </body>
-</html>`;
-
-inquirer
-  .prompt([
-    {
-      type: 'input',
-      name: 'name',
-      message: 'What is your name?',
-    },
-    {
-      type: 'input',
-      name: 'location',
-      message: 'Where are you from?',
-    },
-    {
-      type: 'input',
-      name: 'hobby',
-      message: 'What is your favorite hobby?',
-    },
-    {
-      type: 'input',
-      name: 'food',
-      message: 'What is your favorite food?',
-    },
-    {
-      type: 'input',
-      name: 'github',
-      message: 'Enter your GitHub Username',
-    },
-    {
-      type: 'input',
-      name: 'linkedin',
-      message: 'Enter your LinkedIn URL.',
-    },
-  ])
-  .then((answers) => {
-    const htmlPageContent = generateHTML(answers);
-
-    fs.writeFile('index.html', htmlPageContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created index.html!')
-    );
-  });
-
+</html>
