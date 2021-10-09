@@ -1,31 +1,58 @@
-#Timed Quiz This repo is for week 9 assignment.
-The basis of this assignment was to create a Professional Read me Generator that can automatically create read-me's for the rest of the semeseter.
 
-#Acceptance Criteria Met
-GIVEN a command-line application that accepts user input
+  <img src="https://img.shields.io/badge/APM-hello-blue.svg style="max-width: 100%;">
+  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+  [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+  [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0) 
 
-<!-- WHEN I am prompted for information about my application repository
-    THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions -->
-
-<!-- WHEN I enter my project title
-    THEN this is displayed as the title of the README -->
-
-<!-- WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-    THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests -->
-
-WHEN I choose a license for my application from a list of options
-    THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
-<!-- WHEN I enter my GitHub username
-    THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile -->
-
-<!-- WHEN I enter my email address
-    THEN this is added to the section of the README entitled Questions, 
-    with instructions on how to reach me with additional questions -->
-<!-- 
-WHEN I click on the links in the Table of Contents
-    THEN I am taken to the corresponding section of the README -->
-
-link to delopyed application: https://kevin-cortina.github.io/Timed-Quiz/
-
-Screenshot of Application
+  # 
+  
+  ## Description
+  
+  Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+  - What was your motivation?
+  - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+  - What problem does it solve?
+  - What did you learn?
+  
+  ## Table of Contents (Optional)
+  If your README is long, add a table of contents to make it easy for users to find what they need.
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Badges](#badges)
+  - [Features](#features)
+  - [Tests](#test)
+  - [Questions](#questions)
+ 
+  ## Installation
+  
+ 
+  
+  ## Usage
+  undefined
+  // Provide instructions and examples for use. Include screenshots as needed.
+  
+  
+  ## Contributing
+  
+  List your collaborators, if any, with links to their GitHub profiles.
+  If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+  If you followed tutorials, include links to those here as well.
+  
+  ## License
+  Community
+  The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+  ---
+  🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+  
+  ## Features
+ 
+  
+  ## Tests
+  
+ 
+  
+  ## Questions
+  If you have any questions feel free to contact me via email , Github , .
+  
