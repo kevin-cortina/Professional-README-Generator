@@ -1,5 +1,5 @@
 
-  [![Community License](https://img.shields.io/badge/license-Community-blue.svg)](http://www.gnu.org/licenses/Community-3.0)]
+  [![Community License](https://img.shields.io/badge/license-Community-blue.svg)](http://www.gnu.org/licenses/Community-3.0)
 
   # 
   
