@@ -4,7 +4,7 @@
   # README Generator
   
   ## Description
-  This project is for README generator.
+  This project is for README generator. The purpose of this project is to create an application that makes   creating README files efficiently.
   
   ## Table of Contents
   - [Installation](#installation)
@@ -17,15 +17,15 @@
   - [Questions](#questions)
  
   ## Installation
-  test
- 
+  To use this application you will to install inquirier, filesync(fs), and node.js.
+  Clone the repo. Then open the integrated terminal. Then type in node index.js. Follow the prompt and you   should be all set and the README should populate.
   
   ## Usage
-  undefined
+  Examples to use this application would be as a baseline for when you begin projects and would like to       have a README already generated. 
 
   
   ## Contributing
-  test
+  Do not contribute to this application. Thank you.
 
   
   ## License
@@ -33,12 +33,12 @@
   
 
   ## Features
-  
+  N/A
   
   ## Tests
-  test
+  N/A
  
   
   ## Questions
-  If you have any questions feel free to contact me via email kevinc@gmail.com, Github Kevin-C, kevin-c.
+  If you have any questions feel free to contact me via email kevinc.php@gmail.com,          https://github.com/kevin-cortina.
   
