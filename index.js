@@ -133,4 +133,8 @@ err ? console.error(err) : console.log('Successfully wrote to index.html'));
 });
 
 
+<<<<<<< HEAD
 init();
+=======
+init();
+>>>>>>> ccfc83c (added code to repo)
